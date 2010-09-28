@@ -1,6 +1,6 @@
 set :application, "184.106.240.136"
 set :location, "shopping_cart"
-set :repository,  "git@github.com:dragontech/shopping-sart.git"
+set :repository,  "git@github.com:dragontech/shopping-cart.git"
 set :branch, "master"
 set :deploy_via, :remote_cache
 
