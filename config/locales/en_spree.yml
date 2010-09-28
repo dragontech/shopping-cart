@@ -1,0 +1,936 @@
+---
+en:
+  'no': "Nu"
+  'yes': "Da"
+  5_biggest_spenders: "5 Cei Mai Mari Cheltuitori"
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: A copy of all mail be sent to the following addresses
+  abbreviation: Abbreviation
+  access_denied: "Acces Refuzat"
+  account: Account
+  account_updated: "Cont Actualizat"
+  action: Action
+  alt_text: Alternative Text
+  actions:
+    cancel: Cancel
+    create: Create
+    destroy: Destroy
+    list: List
+    listing: Listing
+    new: New
+    update: Update
+  active: "Activ"
+  activerecord:
+    attributes:
+      address:
+        address1: Address
+        address2: "Addresa (contd.)"
+        city: City
+        country: "Tara"
+        first_name: "Prenume"
+        first_name_begins_with: "Prenumele Incepe Cu"
+        last_name: "Nume"
+        last_name_begins_with: "Numele Incepe Cu"
+        phone: Phone
+        state: "Judet"
+        zipcode: "Cod Postal"
+      checkout:
+        bill_address:
+          address1: "Adresa de facturare, Strada"
+          city: "Adresa de facturare, Oras"
+          firstname: "Adresa de facturare, Prenume"
+          lastname: "Adresa de facturare, Nume"
+          phone: "Adresa de facturare, Telefon"
+          state: "Adresa de facturare, Judet"
+          zipcode: "Adresa de facturare, Cod Postal"
+        ship_address:
+          address1: "Adresa de livrare, Strada"
+          city: "Adresa de livrare, Oras"
+          firstname: "Adresa de livrare, Prenume"
+          lastname: "Adresa de livrare, Nume"
+          phone: "Adresa de livrare, Telefon"
+          state: "Adresa de livrare, Judet"
+          zipcode: "Adresa de livrare, Cod Postal"
+      country:
+        iso: ISO
+        iso3: ISO3
+        iso_name: "Denumire ISO"
+        name: Name
+        numcode: "Cod ISO"
+      creditcard:
+        cc_type: Type
+        month: Month
+        number: Number
+        verification_value: "Verificare Valoare"
+        year: Year
+      inventory_unit:
+        state: State
+      line_item:
+        price: Price
+        quantity: Quantity
+      order:
+        checkout_complete: "Verificare Incheiata"
+        ip_address: "Addresa IP"
+        item_total: "Total Repere"
+        number: Number
+        special_instructions: "Instructiuni Speciale"
+        state: State
+        total: Total
+      product:
+        available_on: "Valabil la"
+        cost_price: "Cost"
+        description: Description
+        master_price: "Pret"
+        name: Name
+        on_hand: "La indemana"
+        shipping_category: "Categorie de expediere"
+        tax_category: "Categorie de Taxe"
+      product_group:
+        name: Name
+#        product_count: "Numarul Produselor" 
+#        product_scopes: "Scopul Produselor"
+        products: "Produse"
+        url: URL
+      product_scope:
+#        arguments: "Arguments"
+        description: "Descriere"
+      property:
+        name: Name
+        presentation: Presentation
+      prototype:
+        name: Name
+      return_authorization:
+        amount: Amount
+      role:
+        name: Name
+      state:
+        abbr: Abbreviation
+        name: Name
+      tax_category:
+        description: Description
+        name: Name
+      tax_rate:
+        amount: Rate
+      taxon:
+        name: Name
+        permalink: Permalink
+        position: Position
+      taxonomy:
+        name: Name
+      user:
+        email: Email
+      variant:
+        cost_price: "Cost"
+        depth: Depth
+        height: Height
+        price: Price
+        sku: SKU
+        weight: Weight
+        width: Width
+      zone:
+        description: Description
+        name: Name
+    models:
+      address:
+        one: Address
+        other: Addresses
+      cheque_payment:
+        one: Cheque Payment
+        other: Cheque Payments
+      country:
+        one: Country
+        other: Countries
+      creditcard:
+        one: "Card de Credit"
+        other: "Card de Credits"
+      creditcard_payment:
+        one: "Plata cu Card de Credit"
+        other: "Plata cu Card de Credit"
+      creditcard_txn:
+        one: "Tranzactie cu Card de Credit"
+        other: "Tranzactie cu Card de Credit"
+      inventory_unit:
+#        one: "Inventory Unit"
+#        other: "Inventory Units"
+      line_item:
+#        one: "Line Item"
+#        other: "Line Items"
+      order:
+        one: Order
+        other: Orders
+      payment:
+        one: Payment
+        other: Payments
+      product:
+        one: Product
+        other: Products
+      product_group:
+        one: "Grupa de Produse"
+        other: "Grupe de Produse"
+      property:
+        one: Property
+        other: Properties
+      prototype:
+        one: Prototype
+        other: Prototypes
+      return_authorization:
+        one: Return Authorization
+        other: Return Authorizations
+      role:
+        one: Roles
+        other: Roles
+      shipment:
+        one: Shipment
+        other: Shipments
+      shipping_category:
+        one: "Categorie de expediere"
+        other: "Categorii de expediere"
+      state:
+        one: State
+        other: States
+      tax_category:
+        one: "Categorie de Taxe"
+        other: "Categorii de Taxe"
+      tax_rate:
+        one: "Taxa"
+        other: "Taxe"
+      taxon:
+        one: Taxon
+        other: Taxons
+      taxonomy:
+        one: Taxonomy
+        other: Taxonomies
+      user:
+        one: User
+        other: Users
+      variant:
+        one: Variant
+        other: Variants
+      zone:
+        one: Zone
+        other: Zones
+  add: Add
+  add_category: "Adaugare Categorie"
+  add_country: "Adaugare Tara"
+  add_option_type: "Adaugare optiune"
+  add_option_types: "Adaugare optiuni"
+  add_option_value: "Adaugare valoare optiune"
+  add_product: "Adaugare Produs"
+  add_product_properties: "Adaugare proprietati produs"
+  add_scope: "Adaugare scop"
+  add_state: "Adaugare judet"
+  add_to_cart: "Adaugare in carucior de cumparaturi"
+  add_zone: "Adaugare zona"
+  additional_item: Additional Item Cost
+  address: Address
+  address_information: "Informatie Adresa"
+  adjustment: Adjustment
+  adjustments: Adjustments
+  administration: Administration
+  all: "Tot"
+  all_departments: Toate departamentele
+#  allow_backorders: "Permite Comenzi Ulterioare"
+  allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
+  allow_ssl_to_be_used_when_in_production_mode: Allow SSL to be used in production mode
+  allowed_ssl_in_production_mode: "SSL {{nu}} va fi folosit in productie"
+  already_registered: Already Registered?
+  alternative_phone: Alternative Phone
+  amount: Amount
+  analytics_trackers: Analytics Trackers
+  are_you_sure: "Esti sigur?"
+  are_you_sure_category: "Esti sigur ca vrei sa stergi aceasta categorie?"
+  are_you_sure_delete: "Esti sigur ca vrei sa stergi aceasta inregistrare?"
+  are_you_sure_delete_image: "Esti sigur ca vrei sa stergi aceasta imagine?"
+  are_you_sure_option_type: "Esti sigur ca vrei sa stergi acest tip de optiune ?"
+#  are_you_sure_you_want_to_capture: "Esti sigur ca vrei sa faci un capture?"
+#  assign_taxon: "Assign Taxon"
+#  assign_taxons: "Assign Taxons"
+  authorization_failure: "Nu s-a obtinut autorizatie"
+  authorized: Authorized
+#  available_on: "Available On"
+#  available_taxons: "Available Taxons"
+  awaiting_return: Awaiting Return
+  back: Back
+  back_end: Back End
+#  back_to_store: "Intoarce-te la Magazin"
+  backordered: Backordered
+  backordering_is_allowed: "Comanda Ulterioara {{nu}}este permisa "
+  balance_due: "Sold Restant"
+  best_selling_products: "Produsele Vandute cel mai Bine "
+  best_selling_taxons: "Best Selling Taxons"
+  both: Both
+  bill_address: "Adresa de Facturare"
+  billing: Billing
+  billing_address: "Adresa de Facturare"
+  by_day: "in timpul "
+  calculator: Calculator
+  calculator_settings_warning: "Inainte sa schimbati tipul calculatorului , trebuie sa salvati continutul inainte de a edita setarile acestuia "
+  cancel: cancel
+  canceled: Canceled
+  cannot_create_returns: Cannot create returns as this order has not shipped yet.
+  cannot_destory_line_item_as_inventory_units_have_shipped: Cannot destory line item as some inventory units have shipped.
+  capture: Capture
+  card_code: "Codul Cardului"
+  card_details: "Detaliile cardului"
+  card_number: "Numarul Cardului"
+  card_type_is: Card type is
+  cart: Cart
+  categories: Categories
+  category: Category
+  change: Change
+  change_language: "Schimba limba"
+  change_my_password: "Schimba parola"
+  charge_total: Charge Total
+  charged: Charged
+  charges: Charges
+  checkout: Checkout
+  checkout_steps:
+    # keys correspond to Checkout state names:
+    address: Address
+    complete: Complete
+    confirm: Confirm
+    delivery: Delivery
+    payment: Payment
+  cheque: Cheque
+  city: City
+  clone: Clone
+  code: Code
+  combine: Combine
+  complete: complete
+  complete_list: "Lista Completa"
+  configuration: Configuration
+  configuration_options: "Optiuni de Configurare"
+  configurations: Configurations
+  configured: Configured
+  confirm: Confirm
+  confirm_delete: "Confirmarea Stergerii"
+  confirm_password: "Confirmarea stergerii"
+  continue: Continue
+  continue_shopping: "Continua Cumparaturile"
+  copy_all_mails_to: Copy All Mails To
+  cost_price: "Cost Pret"
+  count: Count
+  count_of_reduced_by: "Numarul de '{{name}}' redus cu  {{count}}"
+  country: Country
+  country_based: "In functie de Tara"
+  coupon: Coupon
+  coupon_code: Coupon Code
+  coupons: Coupons
+  coupons_description: Manage coupons
+  create: Create
+  create_a_new_account: "Creeaza un nou cont"
+  create_user_account: Create User Account
+  created_successfully: "Creare Reusita"
+  credit: Credit
+  credit_card: "Card de Credit"
+  credit_card_capture_complete: "Cardul de Credit a fost Procesat"
+  credit_card_payment: "Plata prin Card de Credit "
+  credit_owed: "Credit Datorat"
+  credit_total: Credit Total
+  creditcard: Creditcard
+  creditcards: Creditcards
+  credits: Credits
+  current: Current
+  customer: Customer
+  customer_details: "Detalii Client"
+  customer_search: "Cautare Client"
+  date_created: Date created
+#  date_range: "Date Range"
+  debit: Debit
+  delete: Delete
+  depth: Depth
+  description: Description
+  destroy: Destroy
+  display: Display
+  edit: Edit
+  editing_billing_integration: Editing Billing Integration
+  editing_category: "Categorii de  Editare"
+  editing_coupon: Editing Coupon
+  editing_option_type: "Editarea Tipului de Optiune"
+  editing_option_types: "Editarea Tipului de Optiuni"
+  editing_payment_method: Editing Payment Method
+  editing_product: "Editarea Produsului"
+  editing_product_group: "Editarea Grupului de Produse"
+  editing_property: "Editarea Proprietatii"
+  editing_prototype: "Editarea Prototipului"
+  editing_shipping_category: "Editarea Categoriei de Expediere"
+  editing_shipping_method: "Editarea Metodei de Expediere"
+  editing_shipping_rate: Editing Shipping Rate
+  editing_state: "Editarea Statului"
+  editing_tax_category: "Editarea Categoriei de Taxa"
+  editing_tax_rate: "Editarea Ratei de Taxa"
+  editing_tracker: Editing Tracker
+  editing_user: "Editarea Userului"
+  editing_zone: "Editara Zonei"
+  email: Email
+  email_address: "Adresa de e-Mail"
+  email_server_settings_description: "Setearea configuratiei e-Mail si Server"
+  empty_cart: "Cos Gol"
+  enable_login_via_login_password: "Foloseste mail/parola standard"
+  enable_login_via_openid: "Foloseste mai bine OpenID"
+  enable_mail_delivery: Enable Mail Delivery
+  enable_mail_queue: "Autorizeaza Ordinea Mailurilor"
+  enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
+  environment: "Mediu"
+  error: error
+  event: Event
+  existing_customer: "Cleint Existent"
+  expiration: "Expirat"
+  expiration_month: "Luna Expirarii"
+  expiration_year: "Anul Expirarii"
+  extension: Extension
+  extensions: Extensions
+  front_end: Front End
+  filename: Filename
+  final_confirmation: "Confirmare Finala"
+  finalize: Finalize
+  finalized_payments: Finalized Payments
+  first_item: First Item Cost
+  first_name: "Nume"
+  first_name_begins_with: "Numele incepe cu "
+#  flat_percent: "Flat Percent"
+  flat_rate_amount: Amount
+  flat_rate_per_item: "Taxa Fixa (pe produs)"
+  flat_rate_per_order: "Flat Rate (pe comanda)"
+  flexible_rate: "Taxa Flexibila"
+  forgot_password: "AM Uitat Parola"
+  full_name: "Nume Intreg"
+  gateway: Gateway
+  gateway_configuration: "Configurarea Portalului"
+  gateway_error: "Eroare Portal"
+  gateway_setting_description: "Selecteaza un portal de plata si fa setarile de configurare."
+  gateway_settings_warning: "Daca schimbi tipul portalului,trebuie sa salvezi inainte sa schimbi setarile acestuia "
+  general: "General"
+  general_settings: "Setari Generale"
+  general_settings_description: "Configurarea setărilor generale Spree."
+#  google_analytics: "Google Analytics"
+  google_analytics_active: "Activ"
+  google_analytics_create: "Creeaza un nou Cont de Google Analytics"
+  google_analytics_id: "Analytics ID"
+  google_analytics_new: "Nou cont de Google Analytics"
+  google_analytics_setting_description: "Administreaza Google Analytics ID"
+  guest_checkout: Guest Checkout
+  guest_user_account: Checkout as a Guest
+  has_no_shipped_units: has no shipped units
+  height: Height
+  hello_user: "Buna User"
+  history: History
+  home: "Acasa"
+  icons_by: "Icoane de"
+  image: Image
+  images: Images
+  images_for: "Imaini pentru"
+  in_progress: "În curs de desfăşurare"
+  include_in_shipment: Include in Shipment
+  included_in_other_shipment: Included in another Shipment
+  included_in_this_shipment: Included in this Shipment
+  instructions_to_reset_password: "Completeaza formularul de mai jos şi instrucţiunile pentru a reseta parola dvs vor fi trimise prin email:"
+  integration_settings_warning: "Dacă se schimbă de integrare de facturare, trebuie să salvaţi înainte de a putea edita setările de integrare"
+  invalid_search: "Criteiu de Cautare Invalid."
+  inventory: Inventory
+  inventory_adjustment: "ADjustare inventar"
+  inventory_setting_description: "Inventarul de configurare, Backordering, Zero-stoc afişare"
+  inventory_settings: "Setari Inventar"
+  is_not_available_to_shipment_address: is not available to shipment address
+  issue_number: Issue Number
+  item: Item
+  item_description: "Descriere Produse"
+  item_total: "Total Produse"
+  items: "Produse"
+  last_14_days: "Ultimele 14 zile"
+  last_5_orders: "Ultimele 5 Comenzi"
+  last_7_days: "Ultimele 7 Zile"
+  last_month: "Ultima Luna"
+  last_name: "Ultimul Nume"
+  last_name_begins_with: "Prenumele incepe cu"
+  last_year: "Anul Trecut"
+  list: List
+  listing_categories: "Categorii de Afisare"
+  listing_option_types: "Tipuri de Optiuni de Afisare"
+  listing_orders: "Ordinea de Afisare"
+  listing_product_groups: "Listarea Grupului de PRoduse"
+  listing_reports: "Afişarea Rapoarte"
+  listing_tax_categories: "Afişarea Categorii fiscale"
+  listing_users: "Afisare Utilizatori"
+  live: "In Direct"
+  loading: Loading
+#  locale_changed: "Locale Changed"
+  log_in: "Logheaza-te"
+  logged_in_as: "Logat ca si "
+  logged_in_succesfully: "Logare Reusita"
+  logged_out: "Aţi fost deconectat."
+  login_as_existing: "Log In ca si client existent"
+  login_failed: "Autentificare eşuată"
+  login_name: Login
+  logout: Logout
+  look_for_similar_items: Look for similar items
+  maestro_or_solo_cards: Maestro/Solo cards
+  mail_delivery_enabled: "Corespondenta este activata"
+  mail_delivery_not_enabled: "Corespondenta nu este activata"
+  mail_queue_enabled: "Lista de mailuri activata"
+  mail_queue_not_enabled: "Lista de mailuri activata (mesajele de poştă electronică sunt livrate imediat)"
+  mail_server_preferences: Mail Server Preferences
+  mail_server_settings: "Setari Server Mail"
+  make_refund: Make refund
+  mark_shipped: "Noteaza cele Trimise"
+  master_price: "Pret Principal"
+  max_items: Max Items
+  meta_description: "Descriere MEta"
+  meta_keywords: "Cuvinte cheie MEta"
+  metadata: "Data Meta"
+  missing_required_information: "Informaţii solicitate Lipsa"
+  month: "Luna"
+  my_account: "Contul meu"
+  my_orders: "Comenzile mele"
+  name: Name
+  name_or_sku: "nume sau SKU"
+  new: New
+  new_adjustment: "Modificare Noua"
+  new_billing_integration: New Billing Integration
+  new_category: "Categorie Noua"
+  new_coupon: New Coupon
+  new_customer: "Client Nou"
+  new_image: "Imagine Noua"
+  new_option_type: "Nou Tip de Optiuni"
+  new_option_value: "Noua opţiune de valoare"
+  new_order: "Comanda Noua"
+  new_order_completed: "Comanda Noua Satisfacuta"
+  new_payment: "Plata Noua"
+  new_payment_method: New Payment Method
+  new_product: "Produs Nou"
+  new_product_group: New Product Group
+  new_property: "Proprietate Noua"
+  new_prototype: "Prototip Nou"
+  new_return_authorization: New Return Authorization
+  new_shipment: "Transport Nou"
+  new_shipping_category: "Categorie de expediere noua"
+  new_shipping_method: "Metoda de Expediere Noua"
+  new_shipping_rate: New Shipping Rate
+  new_state: "Stat Nou"
+  new_tax_category: "Categorie de Taxa Noua"
+  new_tax_rate: "Rata de Taxare Noua"
+#  new_taxon: "New Taxon"
+#  new_taxonomy: "New Taxonomy"
+  new_tracker: New Tracker
+  new_user: "User Nou"
+  new_variant: "Varianta Noua"
+  new_zone: "Zona Noua"
+  next: Next
+  no_items_in_cart: ""
+  no_match_found: "Nu s-au gasit inregistrari"
+  no_payment_methods_available: "Nu se poate verifica, metodele de plată nu sunt configurate pentru acest mediu"
+  no_products_found: "Nu s-au gasit Produse"
+  no_shipping_methods_available: "Nu exista metode de transport disponibile, vă rugăm să schimbaţi adresa şi încercaţi din nou"
+  no_user_found: "Nici un utilizator a fost găsit cu acea adresă de e-mail"
+  none: None
+  none_available: "Nici unul disponibil "
+  not: not
+  note: Note
+  notice_messages:
+    option_type_removed: "Tipul Optiunii Eliminat cu Succes."
+    product_cloned: "Produsul a fost Clonat"
+    product_deleted: "Produsul a fost Sters"
+    product_not_cloned: "Produsul nu poate fi Clonat"
+    product_not_deleted: "Produsul nu poate fi Sters"
+    track_me_in_GA: "Urmăreste-mă în GA"
+    variant_deleted: "Varianta a fost Stearsa"
+    variant_not_deleted: "Varianta nu poate fi Stearsa"
+  on_hand: "În mână"
+  operation: Operation
+  option_Values: "Valorile Optiunii"
+  option_types: "Tipurile Optiunii"
+  option_values: "Valorile Optiunii"
+  options: Options
+  or: or
+  ord_qty: "Cantitatea Comenzii"
+  ord_total: "Totalul Comenzii"
+  order: Order
+  order_confirmation_note: ""
+  order_date: "Data Comenzii"
+  order_details: "Detaliile Comenzii"
+  order_email_resent: "Retrimitere email in cazul Comenzii"
+  order_not_in_system: That order number is not valid on this site.
+  order_number: Order
+  order_operation_authorize: Authorize
+  order_processed_but_following_items_are_out_of_stock: "Pentru dvs. a fost procesat, dar următoarele elemente nu sunt pe stoc:"
+  order_processed_successfully: "Comanda Dvs. a fost procesaa cu succes"
+  order_summary: Order Summary
+  order_sure_want_to: "Esti sigur ca crei sa {{event}} aceasta Comanda ?"
+  order_total: "Total Comenzi"
+  order_total_message: "Cantitatea Totala Taxata pe cardul Dvs. va fi "
+  order_updated: "Comanda Actualizata"
+  orders: Orders
+  other_payment_options: Other Payment Options
+  out_of_stock: "Nu este pe Stoc"
+  out_of_stock_products: "Produse care nu sunt pe Stoc"
+  over_paid: "Supraplătit"
+  overview: Overview
+  overview_welcome: "Bine ati venit la lista magazinului dvs., în prezent, nu avem suficiente date pentru a afişa Tabloul de bord Overiew <br/> <br/>. Tabloul de bord va afişa în mod automat odată ce sistemul are comenzi suficiente pentru a permite generarea de statistici"
+  page_only_viewable_when_logged_in: You attempted to visit a page which can only be viewed when you are logged in
+  page_only_viewable_when_logged_out: You attempted to visit a page which can only be viewed when you are logged out
+  paid: Paid
+  parent_category: "Categorie Parinte"
+  password: Password
+  password_reset_instructions: "Instructiuni resetare Parola"
+  password_reset_instructions_are_mailed: "Instrucţiunile pentru a reseta parola dvs. au fost trimise prin email. Vă rugăm să verificaţi adresa dvs. de email"
+  password_reset_token_not_found: "Ne pare rău, dar nu am putut localiza contul dumneavoastră. Dacă aveţi probleme încercaţi să copiaţi şi să inseraţi URL-ul de la adresa dvs. de email în browser-ul sau reincepeti procesul de resetare a parolei."
+  password_updated: "Parola updatata cu sucees"
+  path: Path
+  pay: pay
+  payment: Payment
+  payment_gateway: "Portal Plata"
+  payment_information: "Informatii Plata"
+  payment_method: Payment Method
+  payment_methods: Payment Methods
+  payment_methods_setting_description: Configure methods customers can use to pay
+  payment_updated: Payment Updated
+  payments: Payments
+  pending_payments: Pending Payments
+  permalink: Permalink
+  phone: Phone
+  place_order: Place Order
+  please_create_user: "Va rugam creati un cont de user"
+  powered_by: "Realizat de"
+  presentation: Presentation
+  preview: Preview
+  previous: Previous
+  price: Price
+  price_with_vat_included: "{{price}} (inc. VAT)"
+  problem_authorizing_card: "Problema in autorizarea cardului de credit"
+  problem_capturing_card: "Problema in Procesarea Cardului de Credit"
+  problems_processing_order: "PRoblema in procesarea Comenzii"
+  proceed_as_guest: "Nu multumesc, continua ca si Vizitator"
+  process: Process
+  product: Product
+  product_details: "Detalii Produs"
+  product_group: Product Group
+  product_group_invalid: Product Group has invalid scopes
+  product_groups: Product Groups
+  product_has_no_description: This product has no description
+  product_properties: "Proprietati Produs"
+  product_scopes:
+    groups:
+      price:
+        description: "Scopuri pentru selectarea produselor pe baza preţului"
+        name: Price
+      search:
+        description: "Scopuri pentru selectarea produselor bazate pe nume, cuvinte cheie şi descrierea produsului"
+        name: "Cautare Text"
+      taxon:
+        description: "Scopuri pentru selectarea produselor bazat pe Taxons"
+        name: Taxon
+      values:
+        description: "Scopuri pentru selectarea produselor bazate pe opţiune şi valorile de proprietate"
+        name: Values
+    scopes:
+      ascend_by_master_price:
+        name: Ascend by product master price
+      ascend_by_name:
+        name: Ascend by product name
+      ascend_by_updated_at:
+        name: Ascend by actualization date
+      descend_by_master_price:
+        name: Descend by product master price
+      descend_by_name:
+        name: Descend by product name
+      descend_by_popularity:
+        name: Sort by popularity(most popular first)
+      descend_by_updated_at:
+        name: Descend by actualization date
+      in_name:
+        args:
+          words: Words
+        description: "(separate de spatiu sau virgula)"
+        name: "Numele produsului are urmatoarele :"
+        sentence: product name contain <em>%s</em>
+      in_name_or_description:
+        args:
+          words: Words
+        description: "(separate de spatiu sau virgula)"
+        name: "Numele produsului sau descrierea au urmatoarele : "
+        sentence: name or description contain <em>%s</em>
+      in_name_or_keywords:
+        args:
+          words: Words
+        description: "(separate de spatiu sau virgula)"
+        name: "Numele produsului sau cuvintele cheie meta au următoarele :"
+        sentence: name or keywords contain <em>%s</em>
+      in_taxons:
+        args:
+          "taxon_names": "Taxon names"
+        description: "Numele Taxon trebuie să fie separate prin virgula sau spatiu (de exemplu, adidas, pantofi)"
+        name: "În Taxons şi toţi urmaşii lor"
+        sentence: in <em>%s</em> and all their descendants
+      master_price_gte:
+        args:
+          amount: Amount
+        description: ""
+        name: "Preţul principal mai mare sau egal"
+        sentence: price greater or equal to <em>%.2f</em>
+      master_price_lte:
+        args:
+          amount: Amount
+        description: ""
+        name: "Preţul principal mai mic sau egal"
+        sentence: price less or equal to <em>%.2f</em>
+      price_between:
+        args:
+          high: High
+          low: Low
+        description: ""
+        name: "Pret intre"
+        sentence: price between <em>%.2f</em> and <em>%.2f</em>
+      taxons_name_eq:
+        args:
+          taxon_name: "Nume Taxon"
+        description: "În Taxonul specific - fără descendenţi"
+        name: "In Taxon(fără descendenţi)"
+        sentence: in <em>%s</em>
+      with:
+        args:
+          value: Value
+        description: "Selectează toate produsele care au cel puţin o variantă care s-au specificat o valoare, fie ca opţiune sau a proprietăţii (de exemplu, roşu)"
+        name: With value
+        sentence: with value <em>%s</em>
+      with_option:
+        args:
+          option: Option
+        description: "Selects all products that have specified option(eg. color)"
+        name: "With option"
+        sentence: with option <em>%s</em>
+      with_option_value:
+        args:
+          option: Option
+          value: Value
+        description: "Selectează toate produsele care au cel puţin o variantă care s-au specificat o valoare, ca opţiune sau proprietate (de exemplu, roşu)"
+        name: "Cu optiune sau Valoare"
+        sentence: with option <em>%s</em> and value <em>%s</em>
+      with_property:
+        args:
+          property: Property
+        description: "Selectează toate produsele care au o proprietate specificata(de exemplu, greutatea)"
+        name: "Cu Proprietatea"
+        sentence: with property <em>%s</em>
+      with_property_value:
+        args:
+          property: Property
+          value: Value
+        description: "Selectează toate produsele care au cel puţin o varianta cu proprietatea  şi valoarea specificată (de exemplu, greutate: 10 kg)"
+        name: "Cu Valoarea proprietatii"
+        sentence: with property <em>%s</em> and value <em>%s</em>
+  products: Produse
+  products_with_zero_inventory_display: "Produsele cu un inventar zero {{not}} vor fi afişate"
+  properties: Properties
+  property: Property
+  prototype: Prototype
+  prototypes: Prototypes
+  provider: "Furnizor"
+  provider_settings_warning: "Dacă se schimbă tipul de furnizor, trebuie să salvaţi  înainte de a putea edita setările acestuia"
+  qty: Qty
+  quantity_shipped: Quantity Shipped
+#  range: "Interval"
+  rate: Rate
+  reason: Reason
+  recalculate_order_total: "Recalculeaza totalul Comenzii"
+  receive: receive
+  received: Received
+  refund: Refund
+  register: Register as a New User
+  register_or_guest: Checkout as Guest or Register
+  registration: Registration
+  remember_me: "Tine-ma minte"
+  remove: Remove
+  reports: Reports
+  required_for_solo_and_maestro: Required for Solo and Maestro cards.
+  resend: Resend
+  reset_password: "Reseteaza-mi parola"
+  resource_controller:
+    member_object_not_found: "Membrul obiect nu a fost gasit"
+    successfully_created: "Creat cu succes!"
+    successfully_removed: "Inlocuit cu succes!"
+    successfully_updated: "Actualizat cu succes!"
+  response_code: "Cod Raspuns"
+  resume: "Continua"
+  resumed: Resumed
+  return: return
+  return_authorization: Return Authorization
+  return_authorization_updated: Return authorization updated
+  return_authorizations: Return Authorizations
+  return_quantity: Return Quantity
+  returned: Returned
+  rma_number: RMA Number
+  rma_value: RMA Value
+  roles: Roles
+  sales_tax: "Taxa de Vanzare"
+  sales_total: "Total Taxa"
+  sales_total_for_all_orders: "Vânzările totale pentru toate comenzile"
+  sales_totals: "Vanzari Totale"
+  sales_totals_description: "Vanzari totale pentru toate Comenzile"
+  save_and_continue: Save and Continue
+  save_preferences: Save Preferences
+  scope: Scope
+  scopes: Scopes
+  search: Cautare
+  search_results: "Rezultate cautare pentru '{{keywords}}'"
+  secure_connection_type: Secure Connection Type
+  secure_creditcard: Secure Creditcard
+  select: Select
+  select_from_prototype: "Selecteaza din Propotip"
+  select_preferred_shipping_option: "Selectaţi opţiunea preferată de expediere"
+  send_copy_of_all_mails_to: Send Copy of All Mails To
+  send_copy_of_orders_mails_to: Send Copy of Order Mails To
+  send_mails_as: Send Mails As
+  send_order_mails_as: Send Order Mails As
+  server: Server
+  server_error: "Serverul a returnat o eroare"
+  settings: Settings
+  ship: ship
+  ship_address: "Adresa de Expediere"
+  shipment: Shipment
+  shipment_details: Shipment Details
+  shipment_number: "Transport #"
+  shipment_updated: Shipment Updated
+  shipments: "Transporturi"
+  shipped: Shipped
+  shipping: Shipping
+  shipping_address: "Adresa de Expediere"
+  shipping_categories: "Categorii de expediere"
+  shipping_categories_description: "Administreaza Categoriile de expediere pentru a identifica produsele care pot fi expediate si prin ce metodă"
+  shipping_category: Categorie de expediere
+  shipping_cost: Cost
+  shipping_error: "Eroare de Expediere"
+  shipping_instructions: "Instructiuni de Expediere"
+  shipping_method: "Metoda de Expediere"
+  shipping_methods: "Metode de Expediere "
+  shipping_methods_description: "Administreaza metodele de expediere"
+  shipping_rates: "Tarife de Expediere"
+  shipping_rates_description: "Administreaza Tarifele de Expediere"
+  shipping_total: "Total Expediere"
+  shop_by_taxonomy: "Cumpara dupa {{taxonomy}}"
+  shopping_cart: "Cos de Cumparaturi"
+  show: Show
+  show_active: "Arata Active"
+  show_deleted: "Arata Sterse"
+  show_incomplete_orders: "Arata comenzile Incomplete"
+  show_only_complete_orders: "Arata numai comenzile complete"
+  show_out_of_stock_products: "Arata produsele care nu sunt pe stoc"
+  show_price_inc_vat: "Arata pretul incluzand VAT"
+  showing_first_n: "Arata primul {{n}}"
+  sign_up: "Inscrie-te"
+  site_name: "Numele Site-ului"
+  site_url: "URL-ul Siteului"
+  sku: SKU
+  smtp: SMTP
+  smtp_authentication_type: SMTP Authentication Type
+  smtp_domain: SMTP Domain
+  smtp_mail_host: SMTP Mail Host
+  smtp_password: SMTP Password
+  smtp_port: SMTP Port
+  smtp_send_all_emails_as_from_following_address: "Trimite toate mail-urile de la următoarea adresă."
+  smtp_send_copy_of_orders_to_this_addresses: "Trimite o copie a mail-urilor apartinand celorlalti , la această adresă. Pentru mai multe adrese, separati prin virgula."
+  smtp_send_copy_to_this_addresses: "Trimite o copie a tuturor mail-urilor expediate la această adresă. Pentru mai multe adrese, separati prin virgula."
+  smtp_send_order_mails_as_from_following_address: "Trimite  mailuri de comenzi de la urmatoarea adresa."
+  smtp_username: SMTP Username
+  sold: Sold
+  sort_ordering: "Sorteaza Comenzile"
+  spree:
+    date: Date
+    time: Time
+  ssl_will_be_used_in_development_and_test_modes: "SSL va fi utilizat în dezvoltare şi modul de testare, dacă este necesar"
+  ssl_will_be_used_in_production_mode: "SSL va fi folosit in modul productie"
+  ssl_will_not_be_used_in_development_and_test_modes: "SSL nu va fi utilizat în dezvoltare şi modul de testare, dacă este necesar"
+  ssl_will_not_be_used_in_production_mode: "SSL nu va fi folosit in modul productie"
+  start: Start
+  start_date: Valid from
+  state: State
+  state_based: "Bazat pe Stat"
+  state_setting_description: "Administreaza lista de state / provincii asociate cu fiecare ţară"
+  states: States
+  status: Status
+  stop: Stop
+  store: Store
+  street_address: "Adresa Strazii"
+  street_address_2: "Adresa Strazii (continuare)"
+  subtotal: Subtotal
+  subtract: Subtract
+  system: System
+  tax: Tax
+  tax_categories: "Categorii de Taxe"
+  tax_categories_setting_description: "Configureaza categoriile fiscale pentru a identifica produsele care ar trebui să fie impozabile."
+  tax_category: "Categoriile de Taxe"
+  tax_rates: "Rate de impozitare"
+  tax_rates_description: Tax rates setup and configuration.
+  tax_settings: "Setari Taxare"
+  tax_settings_description: Basic tax settings.
+  tax_total: "Total Taxe"
+  tax_type: "Tip de Taxa"
+  taxon: Taxon
+  taxon_edit: Edit Taxon
+  taxonomies: Taxonomies
+  taxonomies_setting_description: "Creaza şi gestionaza taxonomii"
+  taxonomy_edit: "Editare taxonomie"
+  taxonomy_tree_error: "Modificarea solicitată nu a fost acceptată şi arborele a fost returnat la starea sa anterioara, va rugam incercati din nou."
+  taxonomy_tree_instruction: "* Faceţi clic dreapta pe o ramura a arborelui pentru a accesa meniul pentru adăugarea, ştergerea sau de sortare a unei ramuri."
+  taxons: Taxons
+  test: "Test"
+  test_mode: Test Mode
+  thank_you_for_your_order: "Vă mulţumim . Vă rugăm să printaţi o copie a acestei pagini de confirmare pentru înregistrările dumneavoastră."
+  this_file_language: "English (US)"
+  this_month: "Aceasta Luna "
+  this_year: "Acest An"
+#  thumbnail: "Thumbnail"
+  to_add_variants_you_must_first_define: "Pentru a adăuga variante, trebuie să definiţi"
+  top_grossing_products: "Produsele vandute cel mai bine"
+  total: Total
+  tracking: Tracking
+  transaction: Transaction
+  transactions: Transactions
+  tree: Tree
+  try_again: "Mai incearca o data "
+  type: Type
+  unable_ship_method: "Incapabil de a genera metode de expediere din cauza unei erori de server."
+  unable_to_authorize_credit_card: "Incapabil de a autoriza Cardul de Credit"
+  unable_to_capture_credit_card: "Incapabil de a procesa Cardul de Credit"
+  unable_to_connect_to_gateway: "Incapabil de a ma conecta la portal."
+  unable_to_save_order: "Incapabil de a salva comanda "
+  under_paid: "Sub platit"
+  unrecognized_card_type: Unrecognized card type
+  update: Update
+  update_password: "Actualizaţi-mi parola şi logheaza-ma"
+  updated_successfully: "Actualizare reusita"
+  updating: Updating
+  usage_limit: Usage Limit
+  use_as_shipping_address: Use as Shipping Address
+  use_billing_address: Use Billing Address
+  use_different_shipping_address: "Utilizaţi o adresa de livrare diferita"
+  use_new_cc: "Foloseste un card nou"
+  user: User
+  user_account: User Account
+  user_created_successfully: "Utilizator creat cu succes"
+  user_details: "Detalii Utilizator"
+  users: Users
+  validation:
+    is_too_large: "este prea mare - stoc actual nu poate acoperi cantitatea solicitata!"
+    must_be_int: "trebuie sa fie un intreg"
+    must_be_non_negative: "trebuie să fie o valoare non-negativa"
+    cannot_be_less_than_shipped_units: "nu poate fi mai mic decât numărul de unităţi livrate"
+  value: Value
+  variants: Variants
+  vat: "VAT"
+  version: Version
+  view_shipping_options: "Vezi optiuni de expediere"
+  void: Void
+  website: Website
+  weight: Weight
+  welcome_to_sample_store: "Bine ai venit la magazinul de mostre"
+  what_is_a_cvv: "Ce este un (CVV) cod de Card de Credit ?"
+  what_is_this: "Ce e asta?"
+  whats_this: "Ce e asta?"
+  width: Width
+  year: "An"
+  you_have_been_logged_out: "Aţi fost deconectat."
+  your_cart_is_empty: "Cosul este gol"
+  zip: Zip
+  zone: Zone
+  zone_based: "Bazat pe Zona"
+  zone_setting_description: "Colecţii de ţări, state sau alte zone pentru a fi utilizate în diverse calcule"
+  zones: Zones
